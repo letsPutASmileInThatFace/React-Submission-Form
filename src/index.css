@@ -1,0 +1,154 @@
+body {
+    background-color: hsl(0, 8%, 88%);
+
+}
+#root {
+    display: flex;
+    justify-content: center;
+    
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    border: none;
+}
+
+.firstname-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+}
+.firstname-div input, .firstname-div label {
+    margin: 3px;
+}
+
+.lastname-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+}
+.lastname-div input, .lastname-div label {
+    margin: 3px;
+}
+
+.email-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+}
+.email-div input, .email-div label {
+    margin: 3px;
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+}
+.contact-div input, .contact-div label {
+    margin: 3px;
+}
+
+.gender-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+.gender-div div{
+    margin-left: 80px;
+}
+
+.subject-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+.subject-div div{
+    margin-left: 80px;
+}
+
+.resume-div {
+    border: 1px solid hsl(0, 0%, 50%);
+    padding: 4px;
+    margin-top: 5px;
+    font-size: 1.1em;
+    border-radius: 3px;
+}
+
+.url-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.url-div label, .url-div input{
+    margin: 3px;
+}
+
+.choice-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.choice-div label, .choice-div select{
+    margin: 3px;
+}
+
+.about-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.about-div label, .about-div textarea{
+    margin: 3px;
+}
+
+.about-div textarea {
+    padding: 12px 20px;
+    height: 40px;
+    resize: none;
+}
+
+.submit-reset-div {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.reset-button, .submit-button {
+    font-size: 1.1em;
+    padding: 10px 20px;
+    margin: 10px;
+    min-width: 110px;
+    background-color: hsla(0, 0%, 80%, 0.75);
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+
+.reset-button:hover, .submit-button:hover {
+    cursor: pointer;
+    background-color: hsla(0, 0%, 70%, 0.75);
+
+} 
+
+
+
+
