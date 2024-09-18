@@ -1,5 +1,3 @@
-# React + Vite
 
-This is a simple react form porject.
-
-Check https://react-submission-form-by-furkan-s.netlify.app/ to see the builded project. 
+Simple react joke generator with api fetch.
+Visit https://react-joke-generator-by-furkan-s.netlify.app/ to see in action.
